@@ -96,7 +96,10 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
 .end-title.win{color:var(--gold)}
 @keyframes endGlow{to{filter:brightness(1.5) drop-shadow(0 0 14px currentColor)}}
 .end-sub{font-size:clamp(11px,3vw,14px);letter-spacing:4px;font-weight:700;color:rgba(255,255,255,.4);text-align:center}
-.loss-photo{width:min(160px,44vw);height:min(160px,44vw);border:3px solid var(--accent2);border-radius:12px;background:rgba(255,45,107,.08);display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:var(--glow2);overflow:hidden;position:relative;animation:lossShake .25s ease-in-out infinite;flex-shrink:0}
+
+.loss-photo img{width: 100%;height: 100%;object-fit: cover;opacity: .8;}
+
+
 @keyframes lossShake{0%,100%{transform:rotate(0)}25%{transform:rotate(-2.5deg)}75%{transform:rotate(2.5deg)}}
 .loss-placeholder{display:flex;flex-direction:column;align-items:center;gap:4px;color:rgba(255,45,107,.6);font-size:10px;font-weight:700;letter-spacing:2px;text-align:center;padding:10px}
 .loss-placeholder span{font-size:clamp(32px,9vw,48px)}
@@ -208,7 +211,7 @@ body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(
   <div class="end-title loss" id="endTitle">YOUR A GAY</div>
   <div class="end-sub" id="endSub">COULDN'T HOLD IT</div>
   <div class="loss-photo">
-    <div class="loss-placeholder"><span><div><img src="download.jpg" alt=""></div></span><div>QUIT TOO SOON</div></div>
+    <div class="loss-placeholder"><span><div><img src="ei_1779888827951-removebg-preview.png" alt=""></div></span><div>QUIT TOO SOON</div></div>
   </div>
   <div class="loss-msg" id="lossMsg">YOU'RE GAY💀😂</div>
   <div class="end-stats">
